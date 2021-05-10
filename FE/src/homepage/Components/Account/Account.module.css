@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.Jumbotron {
+  padding-top: 100px;
+  background-color: #000000;
+  border-radius: 0px;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+.heading {
+  padding-top: 10px;
+  letter-spacing: 0px;
+  font-size: 2.3rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.Us {
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #008dc8;
+}
+
+.card {
+  margin: auto;
+  max-width: 700px;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+.title{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #008dc8;
+  font-size: 16px;
+  margin-left: 50px;
+}
+
+.accountThreads{
+  background-color: #2d3037;
+  border-radius: 6px;
+  border-top: 6px solid #008dc8;
+  padding: 30px;
+}
+
+.accountThreads a{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: #008dc8;
+  font-size: 20px;
+}
+
+.linkWithImage a p{
+  color: white;
+  margin: 0px;
+}
+
+.allThreadsByUser div:not(:first-child) {
+  margin-top: 40px;
+}
+
+
+.lineGrade{
+  width: 100%;
+  height: 2px;
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 100%);
+  margin-top: 70px;
+}
+
+.accountidentifiers{
+  background-color: #2d3037;
+  border-radius: 6px;
+  border-top: 6px solid #008dc8;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.accountidentifiers p{
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 14px;
+  margin: 6px 0px;
+}
+
+.identifiersText{
+  width: 100%;
+}
+
+.linkWithImage{
+  display: flex;
+}
+
+.emailAndAvatar{
+  display: flex;
+}
+
+.accountidentifiers a p{
+  margin: 0px;
+  align-self: center;
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .linkWithImage{
+    display: block;
+  }
+  
+  .emailAndAvatar{
+    display: block;
+  }
+
+  .title{
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .title p{
+    justify-content: center;
+  }
+
+  .accountImage{
+    display: flex;
+    justify-content: center;
+  }
+
+  .accountImage img{
+    margin: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .accountidentifiers a{
+    display: block;
+  }
+
+  .accountidentifiers a p{
+    margin: 0px;
+  }
+}

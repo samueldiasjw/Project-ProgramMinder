@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.Jumbotron {
+    margin: 0px 16%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.Logo {
+    height: 180px;
+    width: 200px;
+}
+
+.Bottom2, .Top2 {
+    display: none;
+}
+
+.Column {
+    margin-top: 30px;
+}
+
+h5 {
+    color: #008dc8;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0px;
+}
+
+.Border {
+    border-bottom: #008dc8 solid 2px;
+    display: table-cell;
+    position: relative;
+}
+
+.Rectangle {
+    border-bottom: 2px #008dc8 solid;
+    position: absolute;
+    /* right: 50%; */
+    /* left: 0; */
+    /* margin-left: 25px; */
+}
+
+.line1 {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    opacity: 1;
+    border: none;
+    margin-top: 0px;
+}
+
+.line2 {
+    width: 1px;
+    height: 140px;
+    background-color: white;
+    opacity: 1;
+    border: none;
+    margin-left: 0px;
+    margin-right: 2%;
+}
+
+p {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    margin: 16px 0px 0px 0px;
+}
+
+.Bottom1 {
+    padding: 0px;
+}
+
+.Link {
+    color: white;
+}
+
+.Link:hover, .Link:active {
+    color: blue;
+    border: none;
+}
+
+.SocialLinks {
+    text-align: end;
+}
+
+.Shift{
+    color: white;
+}
+
+.Shift:not(:first-child) {
+    margin-left: 40px;
+    margin-top: 0px;
+    font-size: 22px;
+}
+
+.Shift:hover {
+    border: none;
+}
+
+@media (max-width: 995px){
+    .Top3 {
+        text-align: center;
+    }
+
+    #Prod {
+        margin-left: 180px;
+    }
+
+    .Para {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .SocialLinks {
+        text-align: center;
+    }
+}
+
+@media (max-width: 888px){
+    .Bottom1, .Top1, .Phone, .Mail {
+        display: none;
+    }
+    
+    .Bottom2, .Top2 {
+        display: flex;
+    }
+
+    .Shift:not(:first-child) {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 680px){
+    .Shift:not(:first-child) {
+        margin-left: 10px;
+    }
+}
+
+
+@media (max-width: 590px){
+    .Top2{
+        display: block;
+    }
+
+    .Jumbotron{
+        display: table-cell;
+    }
+
+    .Map{
+        margin-top: 25px;
+    }
+}

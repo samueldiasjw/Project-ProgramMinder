@@ -1,1 +1,1 @@
-# Project-ProgramMinder
+# ProgramMinder

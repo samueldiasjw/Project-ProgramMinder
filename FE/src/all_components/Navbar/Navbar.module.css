@@ -1,0 +1,74 @@
+.NavBar {
+  margin: 0 0;
+  background-color: white !important;
+}
+
+.NavBar a {
+  color: black !important;
+  letter-spacing: 0px;
+  font-weight: 500;
+  margin: auto 8px;
+}
+
+.NavBar a:hover {
+  color: #008dc8 !important;
+}
+
+.Brand{
+  font-size: 2rem;
+}
+
+.Brand:hover {
+  border: none;
+  text-decoration: none;
+}
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+.Logo {
+  letter-spacing: 0px;
+  font-size: 2.3rem;
+  font-weight: 390;
+  font-family: Arial;
+  padding-left: 20px;
+}
+
+a:hover,
+a:active,
+a:global(.active) {
+  cursor: pointer;
+  border-bottom: 3px solid #008dc8;
+}
+
+@media (max-width: 380px) {
+  .Logo {
+    position: relative;
+    margin-top: 16px;
+    left: -20px;
+    font-size: 2rem;
+  } 
+  .Brand {
+    font-size: 22px;
+  } 
+  .Toggle{
+    padding: .10rem 0.20rem;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 422px) {
+  .Brand {
+    font-size: 28px;
+  } 
+  
+}
+
+@media screen and (max-width: 991px){
+  .Links{
+    background-color: rgba(104, 104, 104, 0.096);
+    padding: 5px 0 5px 25px;
+  }
+}
+

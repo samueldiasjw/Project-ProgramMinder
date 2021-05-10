@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.Jumbotron {
+  margin: 0;
+  background-color: #000000;
+  color: #ffffff;
+  background-image: url(../../assets/bannerImage.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.container {
+  margin-top: 40px;
+}
+.heading {
+  font-family: "Arial";
+  font-weight: normal;
+  text-align: left;
+  top: 50px !important;
+  left: 50px;
+  margin-bottom: 54px;
+  font-size: 70px;
+}
+.containersmall {
+  margin-top: 50px;
+  display: none;
+}
+.Button {
+  background-color: #008dc8;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  padding: 5px 30px 5px 30px;
+  margin: 5px 0px 5px 0px;
+  position: relative;
+  float: left;
+  top: 30px;
+  left: 8%;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+}
+a:hover{
+  border: none;
+  text-decoration: none;
+}
+.Button:hover,
+.Button:focus,
+.Button:active {
+  background-color: #008dc8;
+  color: white;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.rectangle {
+  height: 5px;
+  width: 130px;
+  background-color: #008dc8;
+  position: relative;
+  bottom: 50px;
+  float: right;
+  right: 190px;
+}
+
+@media screen and (min-width: 1199px) {
+  .heading {
+    position: relative;
+    top: 9px;
+  }
+  .rectangle {
+    top: -10px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .heading {
+    position: relative;
+    top: 35px;
+  }
+  .Button {
+    font-size: 20px;
+    left: 10%;
+  }
+  .rectangle {
+    right: 100px;
+    top: -10px;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .Jumbotron {
+    padding-bottom: 0px;
+  }
+  .heading {
+    font-size: 44px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container {
+    margin-left: 8%;
+  }
+  .align {
+    display: none;
+  }
+  .heading {
+    font-size: 54px;
+    top: -20px !important;
+  }
+  .rectangle {
+    top: -75px !important;
+    left: 25px;
+  }
+  .Button {
+    font-size: 15px;
+    top: -50px;
+    left: 16%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Jumbotron {
+    padding-bottom: 80px;
+  }
+  .container {
+    display: none;
+  }
+  .containersmall {
+    display: inline-block;
+  }
+  .heading {
+    position: inherit;
+    align-content: center;
+  }
+  .Button {
+    font-size: 20px;
+    margin: 5px;
+    position: relative;
+    top: 5%;
+    left: calc(50% - 60px);
+  }
+  .Button:hover,
+  .Button:focus,
+  .Button:active {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .Rectsmall {
+    height: 5px;
+    width: 130px;
+    background-color: #008dc8;
+    position: sticky;
+    bottom: 0px;
+    float: right;
+    right: 50px;
+  }
+}
+@media screen and (max-width: 669px) and (min-width: 460px) {
+  .Rectsmall {
+    position: sticky;
+    top: 750px;
+    right: 300px;
+  }
+}
+@media screen and (max-width: 629px) {
+  .Jumbotron {
+    padding-top: 100px;
+  }
+  .Button {
+    left: calc(50% - 60px);
+  }
+}
+@media screen and (max-width: 503px) {
+  .Jumbotron {
+    background-size: cover;
+  }
+  .Button {
+    left: calc(50% - 70px);
+  }
+}
+@media screen and (max-width: 480px) {
+  .heading {
+    font-size: 44px;
+  }
+  .rectangle {
+    position: sticky;
+    left: calc(50% - 70px);
+  }
+}
+@media screen and (max-width: 450px) {
+  .Jumbotron {
+    padding-top: 130px;
+  }
+  .heading {
+    font-size: 36px;
+  }
+  .Button {
+    left: calc(50% - 60px);
+  }
+}
+@media screen and (max-width: 390px) {
+  .Button {
+    left: calc(50% - 60px);
+  }
+}
+@media screen and (max-width: 320px) {
+  .Button {
+    left: calc(50% - 60px);
+  }
+}
+@media screen and (max-width: 280px) {
+  .Button {
+    left: calc(50% - 60px);
+  }
+}

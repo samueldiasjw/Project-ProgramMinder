@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.Jumbotron {
+  padding-top: 100px;
+  background-color: #000000;
+  border-radius: 0px;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+.heading {
+  padding-top: 10px;
+  letter-spacing: 0px;
+  font-size: 2.3rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.Us {
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #008dc8;
+}
+
+.card {
+  margin: auto;
+  max-width: 1300px;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+.lineGrade{
+  width: 100%;
+  height: 2px;
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(0,212,255,1) 100%);
+  margin-top: 70px;
+}
+
+.cardPost{
+  background-color: #2d3037;
+  border-radius: 6px;
+  padding: 20px;
+  min-height: 300px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.userInfo{
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 10px 0px 0px 8px;
+  text-align: center;
+  max-width: 100%;
+}
+
+
+.userInformation{
+  display: flex;
+}
+
+.image{ 
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.tagRole{
+  padding: 4px 10px 4px 10px;
+  border-radius: 20px;
+  max-width: 50px;
+  display: flex;
+  align-self:flex-start;
+}
+
+.postText{
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  max-width: 100%;
+}
+
+.STAFF{
+  background-color: #ff0000;
+}
+
+.USER{
+  background-color: #008000;
+}
+
+.createButton {
+  margin-top: 20px;
+  background-color: #008dc8;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px 15px 5px 15px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+
+.createButton:hover,
+.createButton:focus,
+.knocreateButtonwMore:active {
+  background-color: #005980;
+  color: white;
+}
+
+.Reply{
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  bottom: 0;
+  right: 0;
+  color: white;
+  margin: 10px;
+  color: #008dc8;
+  border-radius: 10px;
+}
+
+.Reply:hover,
+.Reply:focus,
+.Reply:active {
+  color: #008dc8;
+}
+
+.richtext{
+  margin-top: 70px;
+  background-color: #2d3037;
+  border-radius: 6px;
+  padding: 20px;
+  min-height: 400px;
+  border-top: 6px solid #008dc8;
+}
+
+.link{
+  color: white;
+}
+
+.link:hover{
+  color: #91deff;
+}
+
+
+@media screen and (min-width: 768px) {
+  .postText{
+    font-size: 18px;
+  }
+
+  .userInfo{
+    font-size: 20px;
+  }
+
+  .tagRole{
+    padding: 4px 32px 4px 6px;
+    font-size: 14px;
+    
+  }
+
+  .image{ 
+    width: 90px;
+    height: 90px;
+  }
+}
+
+blockquote{
+  background-color: #3b3f48;
+  color: #abb4c8;
+  font-style: italic;
+  border-color: rgba(218,225,243,0.35);
+  border-left: 3px solid #abb4c8;
+  border-radius: 4px;
+  padding: 10px;
+}
