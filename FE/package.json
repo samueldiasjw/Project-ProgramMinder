@@ -32,9 +32,7 @@
     "start": "react-scripts start --host 0.0.0.0",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -52,10 +50,18 @@
     ]
   },
   "keywords": [
-    "Women in Tech",
-    "Technology",
+    "Software",
+    "Software Developer",
+    "Engineer Developer",
     "Developer",
+    "React",
+    "JavaScript",
+    "Mindera",
+    "Mindera School",
+    "Man in Tech",
+    "Women in Tech",
     "Community",
+    "Technology",
     "Coding"
   ],
   "description": "Project Mindera School"
