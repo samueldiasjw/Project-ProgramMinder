@@ -1,1 +1,1 @@
-# SOLO APPLICATION in Mindera School
+# FrontEnd
